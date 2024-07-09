@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    
+    <script src="https://kit.fontawesome.com/1e157e042a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./dashboard2.css">
+    <title>PROJECT MANAGEMENT SYSTEM</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="logo">
+                <h2>PROJECT SOLUTIONS</h2>
+                
+            </div>
+            <div class="search">
+                
+                <input type="text" name="search" placeholder="search here">
+                <label for="search"><i class="fas fa-search"></i></label>
+            </div>
+            
+            
+            <i class="fas fa-bell"></i>
+            <div class="user">
+                <br><br>
+                <a href="./index.html" class="log logg"></i>LOGIN</a>
+                 
+                 <div class="form-class"></div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+        
+        <div class="sidebar">
+            <ul>
+                
+                
+                <li>
+                    
+                <li>
+                    <a href="./trackprojects.html">
+                        <i class="fas fa-users"></i>
+                        <div>PROJECT MONITORING</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./project deliverables.html">
+                        <i class="fas fa-chart-bar"></i>
+                        
+                        <div>DELIVERABLES</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./newproject.html">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <div>CREATE NEW PROJECT </div>
+                    </a>
+                </li>
+                
+                
+                <li>
+                    <a href="./index2style.html">
+                        <i class="fa-solid fa-user"></i>
+                        <div>USER MANAGEMENT</div>
+                    </a>
+                </li>
+
+                
+                                             
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                        <div>SETTINGS</div>
+                    </a>
+                </li>
+                
+                
+                
+                
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question"></i>
+                        <div>HELP</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="cards">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">300</div>
+                        <div class="card-name">All PROJECTS</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fa-brands fa-slack"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">42</div>
+                        <div class="card-name">CLIENT</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">3000</div>
+                        <div class="card-name">Employees</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">60</div>
+                        <div class="card-name">ON GOING PROJECTS</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fa-brands fa-r-project"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="charts">
+                <div class="chart">
+                    <h2>COMPLETED TASK (past 12 months)</h2>
+                    <div>
+                        <canvas id="lineChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart doughnut-chart">
+                    <h2>DEPARTMENTS</h2>
+                    <div>
+                        <canvas id="doughnut"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <script src="./index.js"></script>
+    <script src="./index2.js"></script>
+</body>
+
+</html>
+
